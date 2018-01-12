@@ -1,0 +1,186 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Merriweather Sans', sans-serif;
+    background-color: #F0F0F0;
+}
+
+.navbar{
+    display: block;
+    width: 100%;
+    height: 60px;
+    background-color: #A0A0A0;
+    top: 0%;
+}
+
+.name{
+    font-size: 3em;
+    color: #404040;
+    margin-left: 220px;
+    white-space: nowrap;
+}
+
+.menu{
+    margin-top: 10px;
+    flex-flow: row nowrap;
+    white-space: nowrap;
+    position: absolute;
+    right: 220px;
+}
+
+.menu-button{
+    width: 100px;
+    height: 60px;
+    display: inline-flex;
+}
+
+.carousel{
+    display: block;
+    width: 80%;
+    height: 500px;
+    margin: 40px auto;
+    background-color: #202020;
+    overflow: auto;
+}
+
+.inner-carousel{
+    display: block;
+    width: 80%;
+    height: 400px;
+    margin: 50px auto;
+    background-color: #F0F0F0;
+}
+
+.blocks-container{
+    max-width: 70%;
+    width: fit-content;
+    display: block;
+    margin: 0 auto;
+}
+
+.blocks-row{
+    flex-flow: row-wrap;
+    margin: 0 auto;
+    width: fit-content;
+}
+
+.large-block{
+    width: 527px;
+    height: 250px;
+    display: inline-block;
+    flex-wrap: wrap;
+    background-color: #F0F0F0;
+    margin-top: 8px;
+}
+
+.small-block{
+    height: 250px;
+    width: 261px;
+    display: inline-block;
+    flex-wrap: wrap;
+    background-color: #F0F0F0;
+    margin-top: 8px;
+}
+
+.blocks-page{
+    padding-top: 40px;
+    padding-bottom: 40px;
+    display: block;
+    width: 100%;
+    height: fit-content;
+    background-color: #404040;
+}
+
+.bio-page{
+    width: 100%;
+    height: fit-content;
+    display: block;
+}
+
+.bio-row{
+    flex-flow: row-wrap;
+    margin: 0 auto;
+    width: 100%;
+    font-size: 0;
+}
+
+.about-me{
+    width: 55%;
+    height: 400px;
+    background-color: #202020;
+    display: inline-flex;
+}
+
+.about-me-box{
+    width: 70%;
+    height: 350px;
+    display: block;
+    background-color: #C0C0C0;
+    margin: 25px 25px 25px auto;
+}
+
+.about-me-title{
+    font-size: 25px;
+    margin-top: 0;
+}
+
+
+.contact-me{
+    width: 45%;
+    height: 400px;
+    background-color: #606060;
+    display: inline-block;
+}
+
+.contact-me-box{
+    width: 62%;
+    height: 350px;
+    display: block;
+    background-color: #F0F0F0;
+    margin: 25px auto 25px 25px;
+}
+
+.about-title{
+    font-size: 20px;
+    margin: 0;
+    padding: 20px;
+    color: #303030;
+    text-align: right;
+}
+
+.contact-title{
+    font-size: 20px;
+    margin: 0;
+    padding: 20px;
+    color: #505050;
+    text-align: right;
+}
+
+.carousel-text{
+    font-size: 30px;
+    color: #505050;
+    text-align: center;
+    line-height: 400px;
+}
+
+.project-text{
+    font-size: 20px;
+    color: #606060;
+    padding: 20px;
+    text-align: right;
+    margin: 0;
+}
+
+.footer{
+    width: 100%;
+    height: 100px;
+    display: block;
+    background-color: #404040;
+}
+
+.footer-title{
+    font-size: 25px;
+    color: #A0A0A0;
+    text-align: center;
+    line-height: 100px;
+}

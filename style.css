@@ -16,7 +16,7 @@ body{
 .name{
     font-size: 3em;
     color: #404040;
-    margin-left: 280px;
+    margin-left: 350px;
     white-space: nowrap;
 }
 
@@ -25,7 +25,7 @@ body{
     flex-flow: row nowrap;
     white-space: nowrap;
     position: absolute;
-    right: 280px;
+    right: 350px;
 }
 
 .menu-button{
@@ -45,7 +45,7 @@ body{
 
 .inner-carousel{
     display: block;
-    width: 80%;
+    width: 90%;
     height: 400px;
     margin: 50px auto;
     background-color: #F0F0F0;
